@@ -1,0 +1,116 @@
+
+
+
+
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+          }
+
+
+
+
+
+
+         /* Container for the login form */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Center the form vertically */
+  background-color: #f1f1f1;
+}
+
+/* Style for the login form card */
+.form-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px; /* Adjust the width as needed */
+}
+
+/* Style for the login heading */
+.login-heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1877F2;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style for form elements */
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the "Remember me" checkbox and forgot password link */
+.login-checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-checkbox1 {
+  font-size: 14px;
+  margin-right: 180px;
+}
+
+.anchor {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Style for the "Login" button */
+.btn-btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #1877F2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Style for the "or" text */
+.or {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Style for the social media sign-in buttons */
+.btn-btn-secondary,
+.btn-btn-thirdly {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Additional styles for FontAwesome icons if needed */
+.fa-brands,
+.fa-solid {
+  margin-right: 10px;
+}
+
+

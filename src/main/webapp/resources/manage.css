@@ -1,0 +1,100 @@
+
+
+
+ /* Apply basic styles to the form */
+
+
+/*  CSS STYLE FOR TABLE*/
+
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}/* Apply styles to the body */
+ body {
+     font-family: Arial, sans-serif;
+ }
+.Heading{
+font-family: 'Times New Roman', Times, serif;
+ font-size: xx-large;
+ text-decoration: double;
+}
+ /* Apply styles to the heading inside the marquee */
+ marquee h1 {
+     color: #333;
+     font-size: 36px;
+     text-align: center;
+ }
+
+ /* Style the mainform container */
+ .mainform {
+     width: 80%;
+     margin: 0 auto;
+     background-color: #f2f2f2;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ /* Style the sub-form container */
+ .sub-form {
+     padding: 20px;
+ }
+
+ /* Style the journey section */
+ .journey {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ /* Style radio buttons */
+ .form-control {
+     display: flex;
+     align-items: center;
+     margin-right: 20px;
+     font-size: 16px;
+     color: #333;
+ }
+
+ /* Style labels and inputs */
+ label {
+     display: block;
+     margin-top: 10px;
+     font-size: 18px;
+     color: #333;
+ }
+
+ input[type="text"],
+ input[type="number"],
+ input[type="datetime-local"] {
+     width: 100%;
+     padding: 10px;
+     margin-top: 5px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 16px;
+ }
+
+ /* Style the subbtn div and submit button */
+ .subbtn {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ input[type="submit"] {
+     background-color: #007bff;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     font-size: 18px;
+     cursor: pointer;
+ }
+
+ /* Style for form validation errors (if needed) */
+ .error {
+     color: red;
+     font-size: 14px;
+     margin-top: 5px;
+ }
+
